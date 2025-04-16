@@ -1,0 +1,109 @@
+DEQUE 'dqInt' CREATED.
+
+PUSHED TO BACK: 10
+
+PUSHED TO FRONT: 3
+
+PUSHED TO BACK: 7
+
+DEQUE CONTENTS: 3 10 7 
+
+DEQUE SORTED.
+
+DEQUE CONTENTS: 3 7 10 
+
+POPPED FROM FRONT: 3
+
+DEQUE CONTENTS: 7 10 
+
+DEQUE 'dqDouble' CREATED.
+
+PUSHED TO BACK: 1.5
+
+PUSHED TO FRONT: 2.5
+
+PUSHED TO BACK: 3.5
+
+DEQUE CONTENTS: 2.5 1.5 3.5 
+
+DEQUE SORTED.
+
+DEQUE CONTENTS: 1.5 2.5 3.5 
+
+POPPED FROM BACK: 3.5
+
+DEQUE CONTENTS: 1.5 2.5 
+
+DEQUE 'dqStr' CREATED.
+
+PUSHED TO BACK: Hello
+
+PUSHED TO FRONT: World
+
+PUSHED TO BACK: Test
+
+DEQUE CONTENTS: World Hello Test 
+
+POPPED FROM FRONT: World
+
+DEQUE CONTENTS: Hello Test 
+
+DEQUE 'dqComplex' CREATED.
+
+PUSHED TO BACK: (1 + 2i)
+
+PUSHED TO FRONT: (3 + 4i)
+
+PUSHED TO BACK: (5 + 6i)
+
+DEQUE CONTENTS: (3 + 4i) (1 + 2i) (5 + 6i) 
+
+POPPED FROM BACK: (5 + 6i)
+
+DEQUE CONTENTS: (3 + 4i) (1 + 2i) 
+
+DEQUE 'dqFunc' CREATED.
+
+PUSHED TO BACK: Function:ZN9MenuDeque10parseValueERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP4TypeEUliE_
+
+PUSHED TO BACK: Function:ZN9MenuDeque10parseValueERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP4TypeEUliE0_
+
+PUSHED TO BACK: Function:ZN9MenuDeque10parseValueERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP4TypeEUliE1_
+
+DEQUE CONTENTS: Function:ZN9MenuDeque10parseValueERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP4TypeEUliE_ Function:ZN9MenuDeque10parseValueERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP4TypeEUliE0_ Function:ZN9MenuDeque10parseValueERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP4TypeEUliE1_ 
+
+DEQUE 'dqPerson' CREATED.
+
+PUSHED TO BACK: John_Doe
+
+PUSHED TO FRONT: Jane_Smith
+
+PUSHED TO BACK: Alice_Jones
+
+DEQUE CONTENTS: Jane_Smith John_Doe Alice_Jones 
+
+DEQUE 'dqInt2' CREATED.
+
+PUSHED TO BACK: 100
+
+PUSHED TO BACK: 200
+
+DEQUE CONTENTS: 100 200 
+
+SELECTED DEQUE: dqInt
+
+CREATED DEQUES:
+  dqComplex
+  dqDouble
+  dqFunc
+  dqInt
+  dqInt2
+  dqPerson
+  dqStr
+
+CONCATENATED dqInt WITH dqInt2 INTO dqInt_CONCAT
+
+SELECTED DEQUE: dqInt_CONCAT
+
+DEQUE CONTENTS: 7 10 100 200 
+
